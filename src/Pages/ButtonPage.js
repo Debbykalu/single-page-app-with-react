@@ -1,6 +1,6 @@
 import Button from './Components/Button';
 
-function App() {
+function ButtonPage() {
   const handleClick = () => {
     console.log('Clicked!');
   };
@@ -44,4 +44,4 @@ function App() {
   );
 }
 
-export default App;
+export default ButtonPage;
