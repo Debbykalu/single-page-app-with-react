@@ -1,47 +1,12 @@
-import Button from './Components/Button';
+import Dropdown from "./Components/Dropdown";
 
 function App() {
-  const handleClick = () => {
-    console.log('Clicked!');
-  };
-
-  return (
+  
+  return(
     <div>
-      <div>
-        <Button
-          secondary
-          outline
-          rounded
-          className="mb-5"
-          onClick={handleClick}
-        >
-          Click me!!
-        </Button>
-      </div>
-      <div>
-        <Button danger outline onMouseEnter={handleClick}>
-        
-          Buy Now!
-        </Button>
-      </div>
-      <div>
-        <Button warning onMouseLeave={handleClick}>
-          
-          See Deal!
-        </Button>
-      </div>
-      <div>
-        <Button secondary outline>
-          Hide Ads!
-        </Button>
-      </div>
-      <div>
-        <Button primary rounded>
-          Something!
-        </Button>
-      </div>
+        <Dropdown />
     </div>
-  );
+  )
 }
 
 export default App;
