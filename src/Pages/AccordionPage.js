@@ -1,5 +1,4 @@
-import Accordion from "../Components/Accordion";
-
+import Accordion from '../Components/Accordion'; 
 function AccordionPage() {
   const items = [
     {
@@ -19,7 +18,7 @@ function AccordionPage() {
     },
   ]
   return(
-    <div>
+    <div className='mt-10'>
         <Accordion items={items}  />
     </div>
   )

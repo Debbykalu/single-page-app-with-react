@@ -3,7 +3,7 @@ import { BiSolidRightArrow, BiSolidDownArrow  } from "react-icons/bi";
 
 import '../Components/accordion.css';
 
-const Accordion = ({items}) => {
+const Accordion = ({ items }) => {
     const[expandedIndex, setExpandedIndex] = useState(-1)
 
     const handleIndexClick = (nextIndex) => {
