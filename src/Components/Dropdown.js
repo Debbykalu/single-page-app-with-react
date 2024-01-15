@@ -31,8 +31,8 @@ const Dropdown = ({options, value, onChange}) => {
         setIsOpen(false)
         onChange(option)
     }
-    const renderedOptions = options.map((option, index) => {
-        return <div className='hover:bg-sky-100 rounded cursor-pointer p-1' onClick={() => handleOptionClick(option)} key={option.index}>
+    const renderedOptions = options.map((option) => {
+        return <div className='hover:bg-sky-100 rounded cursor-pointer p-1' onClick={() => handleOptionClick(option)} key={option.label}>
             {option.label}
         </div>
     })

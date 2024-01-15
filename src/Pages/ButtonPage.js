@@ -1,4 +1,7 @@
-import Button from './Components/Button';
+import Button from "../Components/Button";
+import { FaBell } from "react-icons/fa6";
+import { VscCloudUpload } from "react-icons/vsc";
+import { IoServerOutline } from "react-icons/io5";
 
 function ButtonPage() {
   const handleClick = () => {
@@ -15,18 +18,19 @@ function ButtonPage() {
           className="mb-5"
           onClick={handleClick}
         >
+          <FaBell />
           Click me!!
         </Button>
       </div>
       <div>
         <Button danger outline onMouseEnter={handleClick}>
-        
+          <VscCloudUpload />
           Buy Now!
         </Button>
       </div>
       <div>
         <Button warning onMouseLeave={handleClick}>
-          
+        <IoServerOutline />
           See Deal!
         </Button>
       </div>
