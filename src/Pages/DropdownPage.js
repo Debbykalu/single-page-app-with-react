@@ -11,9 +11,9 @@ function DropdownPage() {
   }
   const options = [
     {label: 'Select...', value: 'Select...'},
-    {label: 'Red', value: 'red'},
-    {label: 'Green', value: 'green'},
-    {label: 'Yellow', value: 'yellow'}
+    {label: 'React', value: 'react'},
+    {label: 'Angular', value: 'angular'},
+    {label: 'Javascript', value: 'javascript'}
   ]
   return(
     <div className="flex ">

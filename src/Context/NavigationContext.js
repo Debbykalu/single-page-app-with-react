@@ -17,6 +17,7 @@ const NavigationProvider = ({ children }) => {
       window.removeEventListener('popstate', handlePath);
     };
   }, []);
+  
 
   const navigate = (to) => {
     window.history.pushState({}, '', to);

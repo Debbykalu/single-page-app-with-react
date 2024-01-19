@@ -10,6 +10,7 @@ const App = () => {
     <div className='container mx-auto grid grid-cols-6 gap-4 mt-10'>
       <SideBar />
       <div className='col-span-5'>
+        
       <Route path="/">
         <DropdownPage />
       </Route>
