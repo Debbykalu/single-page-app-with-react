@@ -5,6 +5,7 @@ const SideBar = () => {
     const links = [
         {page: 'Dropdown', path: '/'},
         {page: 'Accordion', path: '/accordion'},
+        {page: 'Table', path: '/table'},
         {page: 'Button', path: '/button'},
         {page: 'Modal', path: '/modal'}
     ];
