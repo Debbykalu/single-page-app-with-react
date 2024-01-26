@@ -7,7 +7,8 @@ const SideBar = () => {
         {page: 'Accordion', path: '/accordion'},
         {page: 'Table', path: '/table'},
         {page: 'Button', path: '/button'},
-        {page: 'Modal', path: '/modal'}
+        {page: 'Modal', path: '/modal'},
+        {page: 'Counter', path: '/counter'}
     ];
 
     const renderedPage = links.map((link) => {
